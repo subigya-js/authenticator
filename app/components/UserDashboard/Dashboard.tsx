@@ -7,11 +7,11 @@ const Dashboard = () => {
   const router = useRouter();
   return (
     <main className="flex flex-col justify-center items-center h-[90vh] gap-4">
-      <div className="border border-gray-600 w-[30vw] h-[20vh] rounded-xl p-4 flex flex-col justify-center gap-2">
-        <p className="text-lg">
+      <div className="border border-gray-600 lg:w-[40vw] md:w-[50vw] xl:w-[30vw] h-[15vh] md:h-[18vh] rounded-xl p-6 flex flex-col justify-center gap-2">
+        <p className="sm:text-lg text-sm">
           Email: &nbsp; <span>developer.subigya@gmail.com</span>
         </p>
-        <p className="text-lg">
+        <p className="sm:text-lg text-sm">
           Name: &nbsp; <span>Subigya Subedi</span>
         </p>
       </div>

@@ -54,7 +54,7 @@ const Register = () => {
           <input
             type="text"
             placeholder="Full Name"
-            className="pl-2 py-2 sm:w-[400px] w-[300px] text-black outline-none rounded-md"
+            className="pl-2 py-2 sm:w-[48vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] w-[80vw] text-black outline-none rounded-md"
             name="fullName"
             value={registerData.fullName}
             onChange={handleChange}
@@ -63,7 +63,7 @@ const Register = () => {
           <input
             type="email"
             placeholder="Email"
-            className="pl-2 py-2 sm:w-[400px] w-[300px] text-black outline-none rounded-md"
+            className="pl-2 py-2 sm:w-[48vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] w-[80vw] text-black outline-none rounded-md"
             name="email"
             value={registerData.email}
             onChange={handleChange}
@@ -72,7 +72,7 @@ const Register = () => {
           <input
             type="password"
             placeholder="Password"
-            className="pl-2 py-2 sm:w-[400px] w-[300px] text-black outline-none rounded-md"
+            className="pl-2 py-2 sm:w-[48vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] w-[80vw] text-black outline-none rounded-md"
             name="password"
             value={registerData.password}
             onChange={handleChange}

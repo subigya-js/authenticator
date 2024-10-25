@@ -53,7 +53,7 @@ const Login = () => {
           <input
             type="email"
             placeholder="Email"
-            className="pl-2 py-2 sm:w-[400px] w-[300px] text-black outline-none rounded-md"
+            className="pl-2 py-2 sm:w-[48vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] w-[80vw] text-black outline-none rounded-md"
             name="email"
             value={loginData.email}
             onChange={handleChange}
@@ -62,7 +62,7 @@ const Login = () => {
           <input
             type="password"
             placeholder="Password"
-            className="pl-2 py-2 sm:w-[400px] w-[300px] text-black outline-none rounded-md"
+            className="pl-2 py-2 sm:w-[48vw] md:w-[50vw] lg:w-[35vw] xl:w-[30vw] w-[80vw] text-black outline-none rounded-md"
             name="password"
             value={loginData.password}
             onChange={handleChange}
